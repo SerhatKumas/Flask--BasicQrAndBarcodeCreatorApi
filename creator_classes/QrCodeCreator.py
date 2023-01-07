@@ -1,6 +1,7 @@
+#Qr code module import
 import qrcode
 
-
+#Generator and downloader method for qr code
 def generate_and_save_qr_code(qr_url):
     # Creation of Qr Code
     qr = qrcode.QRCode(
